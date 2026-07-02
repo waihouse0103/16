@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🍁 北海道秋日慢活自駕 12天 終極行程指南</title>
+    <style>
+        :root {
+            --primary-color: #d35400;
+            --secondary-color: #e67e22;
+            --bg-color: #fcf8f2;
+            --card-bg: #ffffff;
+            --text-color: #2c3e50;
+            --border-color: #f1e5d5;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.7;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: linear-gradient(135deg, #d35400, #e67e22);
+            color: white;
+            text-align: center;
+            padding: 3rem 1rem;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.2rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+        header p {
+            margin: 0.5rem 0 0 0;
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .section-title {
+            color: var(--primary-color);
+            border-left: 5px solid var(--primary-color);
+            padding-left: 10px;
+            margin-top: 2.5rem;
+            font-size: 1.5rem;
+        }
+        .hotel-list {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border: 1px solid var(--border-color);
+        }
+        .hotel-item {
+            padding: 0.8rem 0;
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .hotel-item:last-child {
+            border-bottom: none;
+        }
+        .btn-map {
+            background-color: #4285F4;
+            color: white;
+            text-decoration: none;
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            font-weight: bold;
+            transition: background 0.2s;
+            display: inline-flex;
+            align-items: center;
+            margin-top: 5px;
+        }
+        .btn-map:hover {
+            background-color: #357ae8;
+        }
+        .day-card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border: 1px solid var(--border-color);
+        }
+        .day-header {
+            display: flex;
+            align-items: center;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        .day-badge {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            margin-right: 15px;
+        }
+        .day-title {
+            font-size: 1.25rem;
+            font-weight: bold;
+            color: #1a252f;
+            margin: 0;
+        }
+        .meta-info {
+            background-color: #faf4eb;
+            padding: 10px 15px;
+            border-radius: 8px;
+            font-size: 0.95rem;
+            margin-bottom: 1rem;
+            border-left: 3px solid var(--secondary-color);
+        }
+        .spot-link {
+            color: #4285F4;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .spot-link:hover {
+            text-decoration: underline;
+        }
+        .photo-placeholder {
+            background-color: #f5f5f5;
+            border: 2px dashed #ccc;
+            border-radius: 8px;
+            height: 180px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #7f8c8d;
+            font-size: 0.9rem;
+            margin-top: 1rem;
+            text-align: center;
+            padding: 0 10px;
+        }
+        @media (max-width: 600px) {
+            .hotel-item {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .btn-map {
+                width: 100%;
+                text-align: center;
+                justify-content: center;
+                margin-top: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🍁 北海道秋日慢活自駕 12天 終極行程指南</h1>
+        <p>雙 Airbnb ✕ 奢華溫泉度假屋</p>
+    </header>
+
+    <div class="container">
+        
+      <h2 class="section-title">🏨 住宿名冊與 Google Maps 導航連結</h2>
+        <div class="hotel-list">
+            <div class="hotel-item">
+                <div><strong>【9/29-9/30 札幌】</strong> JR Tower Hotel Nikko Sapporo</div>
+                <a href="https://maps.google.com/?q=JR+Tower+Hotel+Nikko+Sapporo" target="_blank" class="btn-map">🗺️ Google 地圖導航</a>
+            </div>
+            <div class="hotel-item">
+                <div><strong>【9/30-10/2 旭川】</strong> 旭川站前超大公寓 Airbnb (鄰近旭川站)</div>
+                <a href="https://maps.google.com/?q=Asahikawa+Station" target="_blank" class="btn-map">🗺️ Google 地圖導航</a>
+            </div>
+            <div class="hotel-item">
+                <div><strong>【10/2-10/4 清里町】</strong> 清里町 全棟包套一軒家 Airbnb (鄰近札弦站)</div>
+                <a href="https://maps.google.com/?q=Kiyosato+Hokkaido+Kiyosato+District" target="_blank" class="btn-map">🗺️ Google 地圖導航</a>
+            </div>
+            <div class="hotel-item">
+                <div><strong>【10/4-10/6 星野】</strong> 星野度假村 Tomamu The Tower</div>
+                <a href="https://maps.google.com/?q=Hoshino+Resorts+Tomamu+The+Tower" target="_blank" class="btn-map">🗺️ Google 地圖導航</a>
+            </div>
+            <div class="hotel-item">
+                <div><strong>【10/6-10/8 十勝】</strong> 十勝川溫泉第一酒店</div>
+                <a href="https://maps.google.com/?q=Tokachigawa+Onsen+Daiichi+Hotel" target="_blank" class="btn-map">🗺️ Google 地圖導航</a>
+            </div>
+            <div class="hotel-item">
+                <div><strong>【10/8-10/10 札幌】</strong> 札幌索拉利亞西鐵酒店 (Solaria Nishitetsu Hotel)</div>
+                <a href="https://maps.google.com/?q=Solaria+Nishitetsu+Hotel+Sapporo" target="_blank" class="btn-map">🗺️ Google 地圖導航</a>
+            </div>
+        </div>
+
+        <h2 class="section-title">🗓️ 每日詳細行程與司機指南</h2>
+
+        <div class="day-card">
+            <div class="day-header">
+                <span class="day-badge">9月29日</span>
+                <h3 class="day-title">Day 1：抵達北海道，首晚充分休息</h3>
+            </div>
+            <div class="meta-info">
+                🏠 <strong>今晚住宿：</strong>JR Tower Hotel Nikko Sapporo
+            </div>
+            <p><strong>🚘 行程與接機攻略：</strong></p>
+            <ul>
+                <li><strong>16:00：</strong> 乘 CX580 抵達新千歲機場，下機後快速辦理入境。</li>
+                <li><strong>取車安排：</strong> 司機先行前往租車櫃檯拿車，並將車子開回機場接朋友。</li>
+                <li><strong>接機接回：</strong> 在國際線大堂接齊朋友後，將車子繞到國際線出發往札幌市區。</li>
+                <li><strong>🍽️ 晚餐安排：</strong> 抵達後辦理入住。不作固定限制，在酒店附近或札幌車站地下街按當時心情與朋友的喜好隨心挑選。</li>
+            </ul>
+            <img src="images/JR Tower Hotel Nikko Sapporo.jpg" alt="JR Tower Hotel Nikko Sapporo" width="700">
+        </div>
+
+        <div class="day-card">
+            <div class="day-header">
+                <span class="day-badge">9月30日</span>
+                <h3 class="day-title">Day 2：札幌出發 ➔ 旭川動物園 ➔ 入住旭川超大公寓</h3>
+            </div>
+            <div class="meta-info">
+                🏠 <strong>今晚住宿：</strong>旭川 2 房大公寓 Airbnb
+            </div>
+            <p><strong>🚘 行程細節：</strong></p>
+            <ul>
+                <li><strong>09:00：</strong> 退房並正式開啟自駕旅程！走道央自動車道（高速公路），中途可停靠 <a href="https://maps.google.com/?q=Sunagawa+Highway+Oasis" target="_blank" class="spot-link">砂川綠洲館</a> 稍作拉筋，吃個著名的北菓樓泡芙。</li>
+                <li><strong>中午：</strong> 抵達旭川，直接開往 <a href="https://maps.google.com/?q=Asahiyama+Zoo" target="_blank" class="spot-link">旭山動物園</a> 觀賞經典的企鵝與北極熊，中午可在動物園食堂享用拉麵。</li>
+                <li><strong>16:00 採購：</strong> 前往旭川站旁的 <a href="https://maps.google.com/?q=AEON+MALL+Asahikawa+Ekimae" target="_blank" class="spot-link">AEON 大超市</a> 瘋狂購買高質北海道和牛、海鮮與水果，隨後入住超寬敞的旭川 Airbnb。</li>
+                <li><strong>晚上：</strong> 在公寓大廚房下廚辦牛扒海鮮宴，或者步行去旁邊的大雪地啤酒館暢飲當地手工啤及吃燒肉。</li>
+            </ul>
+            <img src="images/0222e88a-60a6-436f-9e73-66724c6c4891.jpg" alt="0222e88a-60a6-436f-9e73-66724c6c4891" width="700">
+        </div>
+
+        <div class="day-card">
+            <div class="day-header">
+                <span class="day-badge">10月1日</span>
+                <h3 class="day-title">Day 3：層雲峽黑岳大賞楓 ➔ 回旭川公寓</h3>
+            </div>
+            <div class="meta-info">
+                🏠 <strong>今晚住宿：</strong>旭川 2 房大公寓 Airbnb (連住第2晚)
+            </div>
+            <p><strong>🚘 行程細節：</strong></p>
+            <ul>
+                <li><strong>08:30：</strong> 從旭川公寓輕鬆出發前往層雲峽（車程約 1 小時 15 分鐘）。</li>
+                <li><strong>上午：</strong> 前往 <a href="https://maps.google.com/?q=Sounkyo+Kurodake+Ropeway" target="_blank" class="spot-link">黑岳纜車站</a>，搭乘纜車直達五合目！10月初正好是黑岳半山腰紅葉最盛期，景色非常壯觀。</li>
+                <li><strong>下午：</strong> 駕車遊覽大雪山國立公園內極具氣勢的 <a href="https://maps.google.com/?q=Ginga+and+Ryusei+Waterfalls" target="_blank" class="spot-link">銀河瀑布與流星瀑布</a>。下午 4 點前悠閒地開車回旭川，避開黑夜山路。</li>
+                <li><strong>晚上：</strong> 回到旭川，可逛逛車站前的平和通買物公園步行街，隨心享用晚餐。</li>
+            </ul>
+            <img src="images/20220211_095601_99f32131_w1920.jpg" alt="黑岳纜車站" width="700">
+        </div>
+
+        <div class="day-card">
+            <div class="day-header">
+                <span class="day-badge">10月2日</span>
+                <h3 class="day-title">Day 4：旭川 ➔ 網走珊瑚草 ➔ 天之大道 ➔ 入住清里町全棟別墅</h3>
+            </div>
+            <div class="meta-info">
+                🏠 <strong>今晚住宿：</strong>清里町 包棟一軒家 Airbnb
+            </div>
+            <p><strong>🚘 行程細節：</strong></p>
+            <ul>
+                <li><strong>09:00：</strong> 公寓退房，開啟道東曠野之旅。中途停靠新開的現代化公路休息站 <a href="https://maps.google.com/?q=Michi-no-Eki+Engaru+Rock+Valley" target="_blank" class="spot-link">道之驛 遠輕</a> 拍照並享受免費足湯。</li>
+                <li><strong>中午：</strong> 抵達網走享用鮮美海鮮丼，隨後開往 <a href="https://maps.google.com/?q=Lake+Notoro+Coral+Grass" target="_blank" class="spot-link">能取湖珊瑚草群落</a> 欣賞震撼的秋季限定紅色地毯。</li>
+                <li><strong>下午：</strong> 沿海岸線開往知床方向，途中在神級打卡點 <a href="https://maps.google.com/?q=Road+to+Heaven+Hokkaido" target="_blank" class="spot-link">天之大道 (Road to Heaven)</a> 拍下直通天際的筆直絕景照。</li>
+                <li><strong>16:30 前：</strong> 順利 Check-in 位於清里町的 豪華包棟大別墅。別墅前可免費泊兩部車。晚上抬頭即可看見毫無光害的滿天星空。</li>
+            </ul>
+            <img src="images/ec20a8dd-850a-493f-bde5-e814b0beb654.jpg" alt="清里町的4房豪華包棟大別墅" width="700">
+        </div>
+
+        <div class="day-card">
+            <div class="day-header">
+                <span class="day-badge">10月3日</span>
+                <h3 class="day-title">Day 5：世界自然遺產深度遊 (上午搭船 ➔ 下午五湖/秘境)</h3>
+            </div>
+            <div class="meta-info">
+                🏠 <strong>今晚住宿：</strong>清里町 包棟一軒家 Airbnb (連住第2晚)
+            </div>
+            <p><strong>🚘 行程細節：</strong></p>
+            <ul>
+                <li><strong>08:30：</strong> 從清里町別墅開車出發前往宇登呂港口碼頭（車程約 1小時15分），需提早半小時換票準備。</li>
+                <li><strong>【更新】10:00：</strong> 準時搭乘 <a href="https://maps.google.com/?q=Shiretoko+Sightseeing+Boat" target="_blank" class="spot-link">知床觀光船</a> 起航！從海上觀賞壯麗的自然遺產斷崖、瀑布，並尋找野生棕熊。</li>
+                <li><strong>中午：</strong> 在宇登呂港享用極上海鮮午餐。</li>
+                <li><strong>下午：</strong> 前往開車只需 20 分鐘的 <a href="https://maps.google.com/?q=Shiretoko+Goko+Lakes" target="_blank" class="spot-link">知床五湖</a> 輕鬆走高架木道，遠眺知床連山。回程順路探訪大自然夢幻秘境 <a href="https://maps.google.com/?q=Kaminoko+Pond" target="_blank" class="spot-link">神之子池</a> 觀賞寶藍色池水。</li>
+            </ul>
+            <img src="images/jpg.jpg" alt="知床觀光船" width="700">
+        </div>
+
+        <div class="day-card">
+            <div class="day-header">
+                <span class="day-badge">10月4日</span>
+                <h3 class="day-title">Day 6：清里町別墅 ➔ 摩周湖 ➔ 進駐星野度假村</h3>
+            </div>
+            <div class="meta-info">
+                🏠 <strong>今晚住宿：</strong>星野度假村 Tomamu The Tower (已預訂)
+            </div>
+            <p><strong>🚘 行程細節：</strong></p>
+            <ul>
+                <li><strong>09:30：</strong> 別墅退房，開車 45 分鐘前往造訪神秘的火山口湖── <a href="https://maps.google.com/?q=Lake+Mashu+First+Observatory" target="_blank" class="spot-link">摩周湖第一展望台</a>。</li>
+                <li><strong>中午：</strong> 隨後開啟長途自駕移動模式（經美幌峠或阿寒湖，總車程約 3.5 小時）。</li>
+                <li><strong>15:00：</strong> 準時抵達 <a href="https://maps.google.com/?q=Hoshino+Resorts+Tomamu" target="_blank" class="spot-link">星野度假村</a> 辦理 Check-in。晚上漫步唯美的 <strong>水之教堂</strong>，並預約在巨大的針葉林窗景下的「森林餐廳 (Nininupuri)」享用豐盛的自助大餐。</li>
+            </ul>
+            <img src="images/sub_2.jpg" alt="星野渡假村" width="700">
+        </div>
+
+        <div class="day-card">
+            <div class="day-header">
+                <span class="day-badge">10月5日</span>
+                <h3 class="day-title">Day 7：清晨挑戰雲海、度假村慢活設施</h3>
+            </div>
+            <div class="meta-info">
+                🏠 <strong>今晚住宿：</strong>星野度假村 Tomamu The Tower (已預訂)
+            </div>
+            <p><strong>🚘 行程細節：</strong></p>
+            <ul>
+                <li><strong>04:15 清晨：</strong> 搭乘度假村纜車直達 <a href="https://maps.google.com/?q=Unkai+Terrace+Tomamu" target="_blank" class="spot-link">雲海平台</a> 挑戰看壯麗秋季雲海！（清晨山上接近 0°C，務必帶備防風羽絨及保暖水壺）。</li>
+                <li><strong>日間：</strong> 回房補眠後。午後一同前往全日本最大的室內人造浪池 <strong>微笑海灘 (Mina-Mina Beach)</strong> 玩水消遣，或在露天 <strong>木林之湯</strong> 泡湯徹底放鬆。</li>
+                <li><strong>晚上：</strong> 在度假村內的「螢火蟲街 (Hotalu Street)」挑選喜愛的日式居酒屋或特色餐廳享受悠閒夜晚。</li>
+            </ul>
+            <img src="images/images.jpg" alt="JR Tower Hotel Nikko Sapporo" width="700">
+        </div>
+
+        <div class="day-card">
+            <div class="day-header">
+                <span class="day-badge">10月6日</span>
+                <h3 class="day-title">Day 8：星野 ➔ 帶廣浪漫約會 ➔ 十勝川溫泉</h3>
+            </div>
+            <div class="meta-info">
+                🏠 <strong>今晚住宿：</strong>十勝川溫泉第一酒店
+            </div>
+            <p><strong>🚘 行程細節：</strong></p>
+            <ul>
+                <li><strong>10:00：</strong> 辦理退房，輕鬆駕車往帶廣（僅需 1 小時車程，路寬極好開）。</li>
+                <li><strong>中午美食：</strong> 直奔帶廣市區去吃全日本第一名的 <a href="https://maps.google.com/?q=Butadon+Panchou" target="_blank" class="spot-link">元祖豚丼 ぱんちょう</a>。</li>
+                <li><strong>下午：</strong> 前往拍情侶/夫婦必去的最浪漫打卡位 <a href="https://maps.google.com/?q=Kofuku+Station" target="_blank" class="spot-link">幸福車站</a> 與愛國車站。</li>
+                <li><strong>傍晚：</strong> Check-in 頂級的十勝川溫泉第一酒店。體驗世界極罕有、具備天然保濕成分的金黃色植物性「Moor溫泉（美人湯）」，晚上享用奢華的十勝和牛創作會席料理。</li>
+            </ul>
+            <img src="images/unnamed.jpg" alt="十勝川溫泉" width="700">
+        </div>
+
+        <div class="day-card">
+            <div class="day-header">
+                <span class="day-badge">10月7日</span>
+                <h3 class="day-title">Day 9：十勝高原牧場與甜點大暴走</h3>
+            </div>
+            <div class="meta-info">
+                🏠 <strong>今晚住宿：</strong>十勝川溫泉第一酒店 (連住第2晚)
+            </div>
+            <p><strong>🚘 行程細節：</strong></p>
+            <ul>
+                <li><strong>上午：</strong> 駕車前往全日本最宏偉的 <a href="https://maps.google.com/?q=Naitai+Highland+Lodge" target="_blank" class="spot-link">Naitai 高原牧場</a>，在山頂全玻璃展望台（Naitai Highland Lodge）一邊一邊吃超濃郁牛乳雪糕，一邊眺望無邊際的地平線。</li>
+                <li><strong>下午：</strong> 回到帶廣市區，前往甜點聖地 <a href="https://maps.google.com/?q=Rokkatei+Nishi+3-jo+Shop" target="_blank" class="spot-link">六花亭西三條店</a> 享用全日本只有兩家店才吃得到的限定酥脆派，隨後可去「真鍋庭園」散步拍絕美秋色。</li>
+                <li><strong>晚上：</strong> 回到酒店，再次享受私人露天溫泉與第二晚的高級一泊二食晚餐。</li>
+            </ul>
+            <img src="images/10448_3_l.jpg" alt="高原牧場" width="700">
+        </div>
+
+        <div class="day-card">
+            <div class="day-header">
+                <span class="day-badge">10月8日</span>
+                <h3 class="day-title">Day 10：札幌 ➔ 集中火力大 Shopping</h3>
+            </div>
+            <div class="meta-info">
+                🏠 <strong>今晚住宿：</strong>札幌索拉利亞西鐵酒店 (Solaria Nishitetsu Hotel)&nbsp; (連住第2晚)
+            </div>
+            <p><strong>🚘 行程與購物爆買流：</strong></p>
+            <ul>
+              <li><strong>09:30：</strong> 由帶廣開回札幌（車程約 2.5 - 3 小時）。</li>
+                <li><strong>【更新】13:00 抵達：</strong> 抵達新開幕的 Solaria 西鐵酒店，先到前台放低大件行李。車子今晚先不提早還，直接停進酒店停車場，方便你晚上買完大包小包直接放進車尾箱！</li>
+                <li><strong>14:00 - 18:00 (大丸百貨)：</strong> 步行 3 分鐘直接殺去火車站上蓋的 <a href="https://maps.google.com/?q=Daimaru+Sapporo" target="_blank" class="spot-link">大丸百貨 / JR Tower</a>，集中火力狂掃名牌、歐美日系化妝品與服飾。買完隨時提回酒店放低，極不累人。</li>
+                <li><strong>18:30 - 22:00 (狸小路)：</strong> 走路或搭一站地鐵前往 <a href="https://maps.google.com/?q=Tanukikoji+Shopping+Street" target="_blank" class="spot-link">狸小路商店街</a> 及 24小時營業的驚安殿堂，一次過把所有藥妝、零食戰利品掃清光。</li>
+            </ul>
+            <img src="images/sapporotravel_pixta_87703928_M-853x569.jpg" alt="札幌" width="700">
+        </div>
+
+        <div class="day-card">
+            <div class="day-header">
+                <span class="day-badge">10月9日</span>
+                <h3 class="day-title">Day 11：札幌 ➔ 冇行程，按當天喜好，晚上食Omakase</h3>
+            </div>
+            <div class="meta-info">
+                🏠 <strong>今晚住宿：</strong>札幌索拉利亞西鐵酒店 (Solaria Nishitetsu Hotel)
+            </div>
+            <p><strong>🚘 行程與購物爆買流：</strong></p>
+            <ul>
+                <li><strong>10:00：</strong> 按當天心情喜好決定行程。</li>
+               
+                <li><strong>18:30：</strong> &nbsp;食Omakase。</li>
+            </ul>
+            <img src="images/22887966_m-1920x1279-1765439208.jpg" alt="札幌" width="700">
+        </div>
+
+        <div class="day-card">
+            <div class="day-header">
+                <span class="day-badge">10月10日</span>
+                <h3 class="day-title">Day 12：開車直奔機場 ➔ 12:00 準時還車 ➔ 回港</h3>
+            </div>
+            <div class="meta-info">
+                ✈️ <strong>回程航班：</strong>國泰航空 CX581 (16:40 起飛)
+            </div>
+            <p><strong>🚘 行程與最完美的終極還車流程：</strong></p>
+            <ul>
+                <li><strong>10:30：</strong> 在酒店悠閒享用完早餐後 Check-out。將所有大行李箱搬上車，直接開車前往新千歲機場（車程 1 小時）。</li>
+                
+                <li><strong>12:00 前還車：</strong> 開車前往機場附近的租車營業所，**在 12:00pm 前準時完成還車**。辦妥後搭乘租車公司的免費接駁車返回機場航廈。</li>
+                <li><strong>機場最後衝刺：</strong> 辦理完登機寄艙行李後，所有人check-in，最後shopping，一次過買齊六花亭、LeTAO、白色戀人等所有送禮手信。</li>
+				<li><strong>14:00：</strong> 送別朋友</li>
+                <li><strong>16:00：</strong> 登上 <strong>CX581</strong> 航班，滿載珍貴回憶返回香港。</li>
+            </ul>
+            <img src="images/shinchitoseairporttaxfree_pixta_94252250_M.jpg" alt="新千歲機場" width="700">
+        </div>
+
+    </div>
+
+</body>
+</html>
